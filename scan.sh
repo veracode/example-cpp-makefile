@@ -11,4 +11,4 @@ mkdir /srcclr/bin
 ln -s /srcclr/srcclr-*/bin/srcclr /srcclr/bin/srcclr
 export PATH="/srcclr/bin:$PATH"
 
-srcclr scan .
+srcclr scan /projects/example-cpp-makefile
