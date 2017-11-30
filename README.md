@@ -9,7 +9,7 @@ Follow the instructions under the section "Setup and Configuration" in https://w
 ### Linux Users
 The latest version of SourceClear agent only supports C++ projects build on Linux platforms. If you are using a Linux OS, you can scan this project by running
 
-`srcclr scan --url https://github.com/srcclr/example-cpp-makefile`
+`SRCCLR_CPP=true srcclr scan --url https://github.com/srcclr/example-cpp-makefile`
 
 ### Non-Linux users
 For non-linux users, there is a Dockerfile in this repo that builds a Linux container image with this project in it. The steps to setup and test are as follow:
